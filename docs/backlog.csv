@@ -1,0 +1,23 @@
+id,epic,title,persona,priority,story_points,sprint,status,business_requirements,functional_requirements
+US-01,E1 Triage suggestion,the system to suggest which team should handle each incoming request,triage officer,Must,5,1,Done (prototype),"BR-01, BR-02","FR-01, FR-02"
+US-02,E1 Triage suggestion,to see how confident the system is in each suggestion,triage officer,Must,2,1,Done (prototype),BR-06,FR-03
+US-03,E1 Triage suggestion,uncertain requests to go to a manual triage queue instead of being guessed,team leader,Must,3,1,Done (prototype),BR-03,FR-04
+US-04,E2 Safety and priority,requests that mention financial hardship to be escalated to my team regardless of the model's category,Priority Case Team manager,Must,5,1,Done (prototype),"BR-04, BR-05",FR-05
+US-05,E2 Safety and priority,requests that indicate risk to personal safety to be escalated immediately,Priority Case Team manager,Must,3,1,Done (prototype),BR-05,FR-06
+US-06,E3 Transparency,a plain-language reason for each suggestion,triage officer,Must,3,1,Done (prototype),BR-06,FR-07
+US-07,E3 Transparency,an evaluation report showing how well the classifier performs and how it compares with simple baselines,"Director, Contact Centre Operations",Must,5,2,Done (prototype),"BR-02, BR-03",FR-01
+US-08,E4 Governance and monitoring,"performance reported separately for different writing styles, regions and channels",AI Governance Committee member,Should,5,2,Done (prototype),BR-10,FR-11
+US-09,E5 Staff workflow,to accept or override a suggestion and record a reason,triage officer,Should,5,Pilot backlog,Backlog (needs production build),BR-12,FR-10
+US-10,E4 Governance and monitoring,a complete audit record for each triaged request,Legal and oversight reviewer,Must,5,Pilot backlog,Backlog (needs production build),BR-09,FR-09
+US-11,E4 Governance and monitoring,to adjust the confidence threshold and review the phrase lists without a code release,"Director, Contact Centre Operations",Should,3,2,Partial (config file only),BR-11,FR-08
+US-12,E4 Governance and monitoring,"monthly monitoring of accuracy, group gaps, override rate and data drift",Data Science Lead,Should,5,Pilot backlog,Backlog (needs production build),BR-14,FR-12
+US-13,E2 Safety and priority,the system to fail safe by sending requests to the manual queue if anything goes wrong,triage officer,Must,3,Pilot backlog,Backlog (needs production build),BR-03,FR-15
+US-14,E2 Safety and priority,certainty that the tool cannot take decisions or contact citizens,Chief Counsel,Must,2,1,Done by design,"BR-07, BR-13",FR-14
+US-15,E5 Staff workflow,referred requests to arrive with the category and the reason for routing,receiving team manager,Could,2,Pilot backlog,Backlog (needs production build),"BR-01, BR-06",FR-13
+US-16,E4 Governance and monitoring,personal information minimised and masked in logs and training data,Privacy Officer,Must,5,Pilot backlog,Backlog (needs production build),BR-08,FR-09
+EN-01,Enabler,Baseline process maps and requirements pack,Business Analyst,Must,5,1,Done,BR-01..BR-14,-
+EN-02,Enabler,Set up RAID log and decision log,Business Analyst,Must,2,1,Done,-,-
+EN-03,Enabler,Options analysis and business case,Business Analyst,Must,5,2,Done,BR-02,-
+EN-04,Enabler,AI impact assessment and governance assessment,Business Analyst,Must,8,2,Done,"BR-10, BR-13",-
+EN-05,Enabler,Privacy and security threshold analysis,Business Analyst,Must,2,2,Done,BR-08,-
+EN-06,Enabler,Briefing paper and status report,Business Analyst,Should,2,2,Done,-,-

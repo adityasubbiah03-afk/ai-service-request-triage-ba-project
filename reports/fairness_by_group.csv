@@ -1,0 +1,11 @@
+attribute,group,n,accuracy,macro_f1,accuracy_gap_vs_best_in_attribute
+writing_style,esl,87,0.8966,0.8886,0.0767
+writing_style,formal,138,0.8913,0.8706,0.082
+writing_style,plain,625,0.9216,0.9156,0.0517
+writing_style,terse,150,0.9733,0.9666,0.0
+region,metro,598,0.9231,0.9148,0.0074
+region,regional,302,0.9305,0.9225,0.0
+region,remote,100,0.9,0.8901,0.0305
+channel,email,315,0.9206,0.9103,0.0101
+channel,phone_transcript,209,0.9091,0.9033,0.0216
+channel,web_form,476,0.9307,0.9243,0.0

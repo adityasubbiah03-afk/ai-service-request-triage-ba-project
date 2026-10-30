@@ -1,0 +1,13 @@
+                 precision    recall  f1-score   support
+
+PAYMENT_ENQUIRY      0.952     0.960     0.956       248
+   DEBT_DISPUTE      0.939     0.908     0.924       153
+ ACCOUNT_ACCESS      0.951     0.878     0.913       156
+ UPDATE_DETAILS      0.949     0.915     0.931       141
+      COMPLAINT      0.882     0.933     0.907       104
+TECHNICAL_FAULT      0.885     0.927     0.906       124
+HARDSHIP_URGENT      0.829     0.919     0.872        74
+
+       accuracy                          0.923      1000
+      macro avg      0.912     0.920     0.915      1000
+   weighted avg      0.925     0.923     0.923      1000

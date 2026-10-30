@@ -1,0 +1,4 @@
+model,accuracy,macro_f1
+Majority class (dummy),0.248,0.0568
+Naive Bayes (TF-IDF),0.923,0.9155
+Logistic regression (TF-IDF) [chosen],0.923,0.9154

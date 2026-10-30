@@ -1,0 +1,35 @@
+{
+  "dataset": {
+    "rows": 4000,
+    "train_rows": 3000,
+    "test_rows": 1000,
+    "synthetic": true
+  },
+  "test_accuracy": 0.923,
+  "test_macro_f1": 0.9154,
+  "cv_macro_f1_mean": 0.9122,
+  "cv_macro_f1_std": 0.0052,
+  "hardship_recall_model_only": 0.9189,
+  "chosen_threshold": 0.6,
+  "at_chosen_threshold": {
+    "threshold": 0.6,
+    "auto_suggest_coverage": 0.945,
+    "accuracy_when_suggested": 0.9418,
+    "sent_to_manual_queue": 0.055
+  },
+  "max_accuracy_gap_by_attribute": {
+    "channel": 0.0216,
+    "region": 0.0305,
+    "writing_style": 0.082
+  },
+  "end_to_end": {
+    "share_suggest_route": 0.866,
+    "share_manual_queue": 0.045,
+    "share_priority_escalation": 0.089,
+    "hardship_recall_end_to_end": 0.9459,
+    "hardship_cases_missed": 4,
+    "hardship_cases_total": 74,
+    "false_escalation_rate_non_hardship": 0.0205,
+    "accuracy_of_suggested_routes": 0.9503
+  }
+}
